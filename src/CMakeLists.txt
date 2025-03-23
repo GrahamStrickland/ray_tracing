@@ -5,10 +5,10 @@ project(ray_tracing)
 set(HEADERS 
     vec3.h 
     color.h
+    ray.h
 )
 set(SOURCES 
     main.cpp
-    vec3.cpp
     color.cpp
 )
 
