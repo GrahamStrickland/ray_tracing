@@ -45,9 +45,5 @@ $HOME
 # clang-tidy files
 .cache/
 
-# LaTeX files
-*.aux
-*.log
-*.fdb_latexmk
-*.fls
-*.synctex.gz
+# Image files
+*.ppm
