@@ -1,0 +1,53 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# VSCode files
+.DS_Store
+.vs
+*.code-workspace
+*.vscode
+
+# Visual Studio files
+CppProperties.json
+*.vcxproj
+*.vcxproj.*
+*.sln
+\x64
+
+# CMake files
+cmake-build-debug/
+**/build
+**/CMakeFiles
+*.cmake
+CMakeCache.txt
+compile_commands.json
+
+# Natvis files
+*.natvis
+
+# Object files and debugging files
+*.o
+*.out
+*.dSYM
+.gdb_history
+
+# Vim files
+tags
+*.swp
+$HOME
+
+# clang-tidy files
+.cache/
+
+# LaTeX files
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.synctex.gz
