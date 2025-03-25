@@ -6,6 +6,8 @@ set(HEADERS
     vec3.h 
     color.h
     ray.h
+    hittable.h
+    sphere.h
 )
 set(SOURCES 
     main.cpp
