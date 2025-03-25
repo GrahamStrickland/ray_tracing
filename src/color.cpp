@@ -1,4 +1,4 @@
-#include "color.h"
+#include "rtweekend.h"
 
 void write_color(std::ostream &out, const color &pixel_color) {
   auto r = pixel_color.x();
