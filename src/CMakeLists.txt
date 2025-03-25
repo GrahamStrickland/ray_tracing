@@ -7,6 +7,7 @@ set(HEADERS
     color.h
     ray.h
     hittable.h
+    hittable_list.h
     sphere.h
 )
 set(SOURCES 
