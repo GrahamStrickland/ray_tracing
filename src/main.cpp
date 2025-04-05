@@ -1,8 +1,8 @@
-#include "rtweekend.h"
+#include "../include/rtweekend.h"
 
-#include "hittable.h"
-#include "hittable_list.h"
-#include "sphere.h"
+#include "../include/hittable.h"
+#include "../include/hittable_list.h"
+#include "../include/sphere.h"
 
 color ray_color(const ray &r, const hittable &world) {
   hit_record rec;
