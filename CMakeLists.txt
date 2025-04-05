@@ -10,6 +10,8 @@ set(HEADERS
     include/hittable.h
     include/hittable_list.h
     include/sphere.h
+    include/interval.h
+    include/camera.h
 )
 set(SOURCES 
     src/main.cpp
