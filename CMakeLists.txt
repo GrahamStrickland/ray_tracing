@@ -15,7 +15,6 @@ set(HEADERS
 )
 set(SOURCES 
     src/main.cpp
-    src/color.cpp
 )
 
 add_executable(ray_tracing ${SOURCES})
