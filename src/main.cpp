@@ -1,9 +1,9 @@
-#include "../include/rtweekend.h"
+#include "ray_tracing/rtweekend.h"
 
-#include "../include/camera.h"
-#include "../include/hittable.h"
-#include "../include/hittable_list.h"
-#include "../include/sphere.h"
+#include "ray_tracing/camera.h"
+#include "ray_tracing/hittable.h"
+#include "ray_tracing/hittable_list.h"
+#include "ray_tracing/sphere.h"
 
 int main(int argc, char *argv[]) {
   hittable_list world;
